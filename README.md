@@ -20,6 +20,9 @@ git clone https://github.com/FRC-1721/1721-ReefScape
 cd 1721-ReefScape
 ```
 
+To show if the repository was cloned with http or ssh, type:
+git remote show origin
+
 #### Note on ssh
 
 You're welcome to use ssh if you have that setup. But the school blocks ssh traffic on the normal port

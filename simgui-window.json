@@ -16,10 +16,15 @@
     }
   },
   "Window": {
+    "###/SmartDashboard/Field": {
+      "Collapsed": "0",
+      "Pos": "155,70",
+      "Size": "954,576"
+    },
     "###FMS": {
       "Collapsed": "0",
       "Pos": "5,540",
-      "Size": "283,140"
+      "Size": "169,184"
     },
     "###Joysticks": {
       "Collapsed": "0",
