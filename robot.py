@@ -78,8 +78,12 @@ class Robot(MagicRobot):
         """
         Called when autonomous state starts for any of the autonomous modes.
         
-        The autonomous state does not use an autonomousPeriodic. Instead, it uses
-        the AutonomousModeSelector (which will be utilized in a future commit)
+        The autonomous state does not use an autonomousPeriodic. Instead, a folder must
+        exist in the same location as robot.py and it must contain an empty file called
+        __init__.py. Additional autonomous files can be created. For this example, we have
+        a file named dots.py and a file named dashes.py. The dots.py is the default and the
+        dashes.py can be slected using the simulator, in the SmartDashboard section of the
+        NetworkTables.
         """
         print("\nautonomousInit")
         self.indexCount = 0
